@@ -48,7 +48,7 @@ The ONNX model expects input images resized to 640×640.
 
 ```bash
 git clone https://github.com/your-username/Object-Detection-Potatoes-.git
-cd potato-detector
+cd Object-Detection-Potatoes-
 ```
 
 
@@ -62,7 +62,7 @@ docker-compose up --build
 **3. Access the frontend**
 
 ```bash
-👉 http://localhost
+👉 http://localhost/80
 ```
 
 ---
