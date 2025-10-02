@@ -62,7 +62,7 @@ docker-compose up --build
 **3. Access the frontend**
 
 ```bash
-👉 http://localhost/80
+👉 http://localhost:80
 ```
 
 ---
