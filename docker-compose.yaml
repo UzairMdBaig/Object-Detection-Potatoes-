@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./API
+    container_name: API_od
+    expose:
+      - "8000"
+
+  frontend:
+    build: ./frontend
+    container_name: frontend_od
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
